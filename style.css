@@ -1,0 +1,521 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;  
+    position: relative;
+}
+
+.navlink, .flex-container {
+    position: absolute;
+}
+
+.nav-link {
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.responsive {
+    width: auto 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.background {
+    max-width: fit-content;
+    max-width: max-content;
+}
+
+a {
+    color: white;
+    text-decoration:none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #FFBB00;
+    text-decoration: underline;
+}
+
+button:hover {
+    box-shadow: 3px 1px 5px #888888;
+}
+
+.button {
+    font-size: 0.8rem;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    padding: 0.75rem 2.5rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.bg-yellow {
+    background-color: #FFBB00;
+    color: white;
+}
+
+.container .header {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-1 {
+    max-width: 400px;
+    color: white;
+    text-align: left;
+    margin: 190px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    max-width: 400px;
+}
+
+
+#under {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.mobil-1 {
+    padding-top: 100px;
+    margin-right: 80px;
+    height: 690px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.ladda-ner {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 0.8rem;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    padding: 0.75rem 2.5rem;
+}
+
+.video:hover {
+    box-shadow: 3px 1px 5px #888888;
+}
+
+.watch {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.1rem 0.5rem;
+}
+
+.watch:hover {
+    text-decoration: underline;
+    box-shadow: none;
+    color: #FFBB00;
+}
+
+#ec {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0.5rem;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.download .container {
+    display: flex;
+}
+
+.fakta {
+    width: 500px;
+    font-size: 20px;
+}
+
+.download .container, .fakta .iphone {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: inherit;
+}
+
+.download .container, .fakta .ring {
+    justify-content: space-evenly;
+}
+
+.iphone {
+    position: absolute;
+    margin-left: 130px;
+}
+
+h6 {
+    line-height: 1.5rem;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#om-oss {
+    background-color: #fcf0d0;
+    color:#ffbb00;
+    font-weight: bold;
+    border: none;
+    font-size: 0.85rem;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    padding: 0.6rem 1.5rem;
+}
+
+.google:hover {
+    box-shadow: 3px 1px 5px #888888;
+}
+
+.apple:hover {
+    box-shadow: 3px 1px 5px #888888;
+}
+
+
+.slide3 .container {
+    display: flex;
+    margin-top: 70px;
+}
+
+.knapp3 {
+    background-color: #fcf0d0;
+    color:#ffbb00;
+    font-weight: bold;
+    border: none;
+    font-size: 0.85rem;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    padding: 0.6rem 1.5rem;
+    margin-top: 20px;
+}
+
+.slide3 .container {
+    display: flex;
+    align-items: center;
+}
+
+
+.fakta2 {
+    width: 500px;
+    font-size: 20px;
+}
+
+.rubrik {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.under-t {
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+
+.container, .mobil-3 .fakta2 {
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    width: 550px;
+    font-size: 13px;
+}
+
+.application .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.application h1 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.application sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.application sub {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.container .iphones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.statistik .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nummer h1 {
+    color: #3096FE;
+}
+
+.info h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.info p {
+    text-align: center;
+    max-width: 40rem;
+}
+
+.container .nummer, .container .information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 9rem;
+}
+
+.container .information {
+    margin-top: -40px;
+    gap: 11rem;
+}
+ 
+.lyft .container .telefon-3{
+    margin-top: 7rem;
+    background-color: #1487FD;
+    width: 100%;
+    display: flex;
+    overflow: hidden; 
+    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
+}
+
+.telefon-3 {
+    width: auto;
+    height: auto; 
+}
+
+.appstore {
+    color: white;
+    position: absolute;
+    margin-left: 11rem;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.appstore h1 {
+    font-size: 35px;
+    max-width: 490px;
+    text-align: left;
+}
+
+.appstore h6 {
+    width: 30rem;
+    text-align: left;
+}
+
+.apple1:hover .google1:hover {
+    box-shadow: 5px 3px 5px #000000;
+}
+
+/* formulär */
+
+input[type=text]{
+    width: 100%;
+    padding: 14px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    border: none;
+    background-color: #FBFBFB;
+}
+
+.cool input {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #FBFBFB;
+}
+
+
+.kontakt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h4 {
+    font-size: 2rem;
+    margin-bottom: 9px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.kontakt p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.form .roow, .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form .cool {
+    margin-top: 10px;
+}
+
+
+.send {
+    background-color:#3096FE;
+    color:white;
+    font-weight: bold;
+    border: none;
+    font-size: 0.85rem;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    padding: 0.6rem 4rem;
+    margin-top: 10px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer .baksida {
+    position: relative;
+}
+
+.footer .navigation-link, .instagram, .loggan {
+    position: absolute;
+}
+
+.footer .loggan {
+    margin-top: -90px;
+}
+
+
+.footer .instagram {
+    margin-bottom: -90px;
+}
+
+.face:hover {
+    box-shadow: 1px 2px 4px #3f3f3f;
+}
+
+.twitt:hover {
+    box-shadow: 1px 2px 4px #3f3f3f;
+}
+
+.inst:hover {
+    box-shadow: 1px 2px 4px #3f3f3f;
+}
+
+.goog:hover {
+    box-shadow: 1px 2px 4px #3f3f3f;
+}
+
+
+@media (max-width: 1150px) {
+    body .iphone, .ring, .mobil-3, .mobil-1 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    .lyft {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    .container .iphones, .application, .statistik, #ec{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    body .flexbar-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .content {
+        margin-top: -100px;
+    }
+
+}
+
+@media (max-width: 886px) {
+    .video, .ladda-ner, .watch {
+        display: none;
+    }
+
+}
+
